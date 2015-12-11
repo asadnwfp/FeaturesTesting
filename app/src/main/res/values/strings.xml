@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EvampTesting</string>
+
+    <!--Class Main Activity -->
+    <string name="mainActivityHeading">List of Activities</string>
+
+    <!--View Pager Activity-->
+    <string name="view_pager_activity">View Pager Activity</string>
+    <string name="listactivitytext">List Activity</string>
+    <string name="customlistview">Custom List View</string>
+</resources>
