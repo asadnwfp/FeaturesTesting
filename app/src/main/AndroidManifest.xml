@@ -16,6 +16,21 @@
         <activity android:name=".listviews.ListViewMainActivity"/>
         <activity android:name=".listviews.customlistview.CustomListActivity"/>
         <activity android:name=".listviews.expandablelistview.ExpandableListActivity"/>
+        <activity android:name=".listviews.spiceexpandablelistview.SpiceExpandableListView"/>
+        <activity android:name=".listviews.youtubelistivew.YouTubeMainActivity"/>
+        <!--Toolbar Activities-->
+        <activity android:name=".toolbars.ToolBarMainActivity"
+            android:label="@string/toolbarlabel"
+            android:icon="@mipmap/icon_right_arrow"/>
+        <activity android:name=".toolbars.ReusingToolBar"/>
+        <activity android:name=".toolbars.ScrollingToolBar"
+            android:label="@string/toolbar_scrollingToolbar"/>
+        <!--Recycler View-->
+        <activity android:name=".recyvlerview.help_codepath.RecyclerViewMainActivity"
+            android:label="@string/recyclerView_mainactivity"/>
+        <activity android:name=".recyvlerview.RecyclerViewMainActivity"
+            android:label="@string/recyclerView_mainactivity"/>
+        <activity android:name=".recyvlerview.coordinatorlayout.CoordinatorMainActivity"/>
     </application>
 
 </manifest>

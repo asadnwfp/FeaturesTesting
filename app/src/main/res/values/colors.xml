@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="listview_textcolor">#000</color>
+    <!--ExpandableListView_Child_Subscriber-->
+    <color name="ExpandableListView_Child_Subscriber">#829199</color>
 </resources>

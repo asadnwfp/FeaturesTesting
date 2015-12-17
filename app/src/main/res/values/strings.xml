@@ -3,9 +3,14 @@
 
     <!--Class Main Activity -->
     <string name="mainActivityHeading">List of Activities</string>
-
+    <!--ListViews-->
+    <string name="search">Search</string>
     <!--View Pager Activity-->
     <string name="view_pager_activity">View Pager Activity</string>
     <string name="listactivitytext">List Activity</string>
     <string name="customlistview">Custom List View</string>
+    <!--ToolBar Activity-->
+    <string name="toolbarlabel">Tool Bar Activity</string>
+    <string name="toolbar_scrollingToolbar">Scrolling ToolBar</string>
+    <string name="recyclerView_mainactivity">Recycler View Main</string>
 </resources>

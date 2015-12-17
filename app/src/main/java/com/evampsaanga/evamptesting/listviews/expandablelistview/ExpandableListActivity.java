@@ -66,4 +66,13 @@ public class ExpandableListActivity extends AppCompatActivity {
         childHashMap.put(parentNames.get(1), nowShowing);
         childHashMap.put(parentNames.get(2), comingSoon);
     }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        // This will get the indicator to right side of the screen.
+        // http://stackoverflow.com/questions/5800426/expandable-list-view-move-group-icon-indicator-to-right
+        int sizeInPixel = getResources().getDimensionPixelSize(R.dimen.groupIndicatorRight);
+        listView.setIndicatorBounds(listView.getRight() - sizeInPixel, listView.getWidth());
+    }
 }

@@ -10,8 +10,12 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.evampsaanga.evamptesting.listviews.ListViewMainActivity;
-import com.evampsaanga.evamptesting.listviews.expandablelistview.ExpandableListActivity;
+import com.evampsaanga.evamptesting.recyvlerview.coordinatorlayout.CoordinatorMainActivity;
+import com.evampsaanga.evamptesting.recyvlerview.help_codepath.RecyclerViewMainActivity;
 import com.evampsaanga.evamptesting.tablayout.TabLayoutActivity;
+import com.evampsaanga.evamptesting.toolbars.ReusingToolBar;
+import com.evampsaanga.evamptesting.toolbars.ScrollingToolBar;
+import com.evampsaanga.evamptesting.toolbars.ToolBarMainActivity;
 import com.evampsaanga.evamptesting.viewpagers.ViewPagerMain;
 
 /**
@@ -34,11 +38,16 @@ public class MainActivity
     }
 
     private void createListNames(){
-        listNames = new String[4];
+        listNames = new String[9];
         listNames[0]="ListActivity";
         listNames[1]="View Pagers";
         listNames[2]="Tab Layout";
-        listNames[3]="Expandable List View";
+        listNames[3]="Toolbar View";
+        listNames[4]="Reusing ToolBar";
+        listNames[5]="Scrolling ToolBar";
+        listNames[6]="Recycler View";
+        listNames[7]="Recycler View Main";
+        listNames[8]="Coordinator Main";
     }
 
     @Override
@@ -58,7 +67,27 @@ public class MainActivity
                 startActivity(i);
                 break;
             case 3:
-                i = new Intent(this, ExpandableListActivity.class);
+                i = new Intent(this, ToolBarMainActivity.class);
+                startActivity(i);
+                break;
+            case 4:
+                i = new Intent(this, ReusingToolBar.class);
+                startActivity(i);
+                break;
+            case 5:
+                i = new Intent(this, ScrollingToolBar.class);
+                startActivity(i);
+                break;
+            case 6:
+                i = new Intent(this, RecyclerViewMainActivity.class);
+                startActivity(i);
+                break;
+            case 7:
+                i = new Intent(this, com.evampsaanga.evamptesting.recyvlerview.RecyclerViewMainActivity.class);
+                startActivity(i);
+                break;
+            case 8:
+                i = new Intent(this, CoordinatorMainActivity.class);
                 startActivity(i);
                 break;
             default:
